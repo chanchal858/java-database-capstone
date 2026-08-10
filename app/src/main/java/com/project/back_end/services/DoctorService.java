@@ -15,8 +15,8 @@ import org.springframework.stereotype.Service;
 import com.project.back_end.dto.Login;
 import com.project.back_end.model.Appointment;
 import com.project.back_end.model.Doctor;
-import com.project.back_end.repository.AppointmentRepository;
-import com.project.back_end.repository.DoctorRepository;
+import com.project.back_end.repo.AppointmentRepository;
+import com.project.back_end.repo.DoctorRepository;
 
 @Service
 public class DoctorService {
