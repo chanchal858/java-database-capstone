@@ -1,4 +1,4 @@
-package com.project.back_end.controller;
+package com.project.back_end.controllers;
 
 import java.util.Map;
 
