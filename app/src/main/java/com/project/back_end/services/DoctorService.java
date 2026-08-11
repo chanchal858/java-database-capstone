@@ -1,4 +1,4 @@
-package com.project.back_end.service;
+package com.project.back_end.services;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,9 +12,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import com.project.back_end.dto.Login;
-import com.project.back_end.model.Appointment;
-import com.project.back_end.model.Doctor;
+import com.project.back_end.DTO.Login;
+import com.project.back_end.models.Appointment;
+import com.project.back_end.models.Doctor;
 import com.project.back_end.repo.AppointmentRepository;
 import com.project.back_end.repo.DoctorRepository;
 
