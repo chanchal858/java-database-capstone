@@ -1,4 +1,4 @@
-package com.project.back\_end.service;
+package com.project.back_end.services;
 
 import java.nio.charset.StandardCharsets;
 import java.util.Date;
@@ -8,12 +8,12 @@ import javax.crypto.SecretKey;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.project.back\_end.model.Admin;
-import com.project.back\_end.model.Doctor;
-import com.project.back\_end.model.Patient;
-import com.project.back\_end.repository.AdminRepository;
-import com.project.back\_end.repository.DoctorRepository;
-import com.project.back\_end.repository.PatientRepository;
+import com.project.back_end.models.Admin;
+import com.project.back_end.models.Doctor;
+import com.project.back_end.models.Patient;
+import com.project.back_end.repo.AdminRepository;
+import com.project.back_end.repo.DoctorRepository;
+import com.project.back_end.repo.PatientRepository;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
