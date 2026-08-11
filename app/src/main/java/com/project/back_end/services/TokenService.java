@@ -22,7 +22,6 @@ import io.jsonwebtoken.security.Keys;
 @Component
 public class TokenService {
 
-```
 private final AdminRepository adminRepository;
 private final DoctorRepository doctorRepository;
 private final PatientRepository patientRepository;
@@ -141,6 +140,5 @@ private SecretKey getSigningKey() {
             secret.getBytes(StandardCharsets.UTF_8)
     );
 }
-```
 
 }
