@@ -1,4 +1,4 @@
-package com.project.back_end.dto;
+package com.project.back_end.DTO;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
