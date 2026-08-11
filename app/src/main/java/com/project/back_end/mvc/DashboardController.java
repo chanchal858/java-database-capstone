@@ -1,4 +1,4 @@
-package com.project.back_end.controllers;
+package com.project.back_end.mvc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
